@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, rgb(81, 168, 255),  #FFDEE9); /* Gradient background */
+    color: #333;
+}
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 00vh;
+}
+      
+.card {
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(104, 180, 255); /*emi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.card a:hover {
+    background-color: #555;
+}
+
+/**/
+
+/* Container for main layout */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #2C3E50;
+    color: rgb(0, 0, 64);
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #ECF0F1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #34495E;
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-btn {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.top-btn:hover {
+    background-color: #2980B9;
+}
+
+h1 {
+    text-align: center;
+    color: #2C3E50;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
